@@ -1,0 +1,81 @@
+.formulario {
+    width: 100%;
+}
+
+.formulario__campo {
+    font-weight: 400;
+    font-size: 2rem;
+    display: block;
+}
+
+.formulario__campo input,
+.formulario__campo input:focus {
+    font-family: inherit;
+    font-size: 2rem;
+    padding: 1rem 0.7rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #c0c0c0;
+    outline: none;
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+
+.formulario__campo label {
+    display: block;
+    margin: 0.7rem 0;
+}
+
+.formulario__campo.invalido label {
+    display: block;
+    margin: 0.7rem 0;
+    color: #e70a0a;
+}
+
+.formulario__campo.invalido input,
+.formulario__campo.invalido input:focus {
+    font-family: inherit;
+    font-size: 2rem;
+    padding: 1rem 0.7rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #e70a0a;
+    outline: none;
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+
+.btns {
+    margin-top: 1.4rem;
+    text-align: right;
+    display: block;
+}
+
+.btn-cancelar {
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 0.1rem solid #e6221b;
+    background-color: #e6221b;
+    color: white;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+.btn-adicionar {
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 0.1rem solid #3b85ca;
+    background-color: #3b85ca;
+    color: white;
+    border-radius: 1rem;
+}
+
+.btn-cancelar:active {
+    border: 0.1rem solid #ca1b15;
+    background-color: #ca1b15;
+}
+
+.btn-adicionar:active {
+    border: 0.1rem solid #2d679c;
+    background-color: #2d679c;
+}

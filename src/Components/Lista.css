@@ -1,0 +1,27 @@
+.lista {
+    background-color: #d4d4d4;
+    display: inline-block;
+    text-align: center;
+    margin: 10rem auto auto 20rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 40rem;
+    position: absolute;
+    box-shadow: 1rem 1rem 1rem #969595;
+}
+
+.lista__titulo {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.lista__item {
+    margin-top: 1.5rem;
+    background-color: #b9b6b6;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.8rem 0 0.8rem 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+}

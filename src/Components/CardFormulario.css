@@ -1,0 +1,24 @@
+.card_formulario {
+    display: inline-block;
+    width: 40rem;
+    background-color: #d4d4d4;
+    border-radius: 2rem;
+    margin: 10rem auto auto 10rem;
+    padding: 2rem;
+    box-shadow: 1rem 1.2rem 0.8rem #979797;
+}
+
+button {
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 0.1rem solid #3b85ca;
+    background-color: #3b85ca;
+    color: white;
+    border-radius: 1rem;
+}
+
+button:active {
+    border: 0.1rem solid #2d679c;
+    background-color: #2d679c;
+}
